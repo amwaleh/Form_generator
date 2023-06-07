@@ -63,4 +63,4 @@ jobs:
           app-name: 'testQuadl'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B899DD8C9A164F78A3E73C2A5C18B7E1 }}
-          package: .
+          package: release.zip
